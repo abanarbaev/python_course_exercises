@@ -1,0 +1,13 @@
+<Request 'http://127.0.0.1:5000/search4' [POST]> {'a', 'o', 'i', 'e', 'u'}
+<Request 'http://127.0.0.1:5000/search4' [POST]> {'a', 'i', 'o'}
+<Request 'http://127.0.0.1:5000/search4' [POST]> {'o'}
+<Request 'http://127.0.0.1:5000/search4' [POST]> {'a', 'i', 'o'}
+<Request 'http://127.0.0.1:5000/search4' [POST]> {'o', 'i', 'a'}
+<Request 'http://127.0.0.1:5000/search4' [POST]> {'i', 'o', 'a'}
+<Request 'http://127.0.0.1:5000/search4' [POST]> {'i', 'o', 'e'}
+{'o', 'i', 'a'}
+ImmutableMultiDict([('phrase', 'Fire Fire '), ('letters', 'aeiou')])|127.0.0.1|Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36|{'i', 'e'}|ImmutableMultiDict([('phrase', 'Fire Fire on the Fire'), ('letters', 'aeiou')])|127.0.0.1|Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36|{'i', 'o', 'e'}|ImmutableMultiDict([('phrase', 'Fire Fire on the Fire'), ('letters', 'aeiou')]) | 127.0.0.1 | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36 | {'e', 'i', 'o'}
+ImmutableMultiDict([('phrase', 'ewrtw ewrtwertuyl;p;  aasdfoip'), ('letters', 'aeiou')]) | 127.0.0.1 | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36 | {'e', 'a', 'u', 'o', 'i'}
+ImmutableMultiDict([('phrase', 'hitch-hiker'), ('letters', 'aeiou')]) | 127.0.0.1 | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36 | {'e', 'i'}
+ImmutableMultiDict([('phrase', 'hitch-hiker'), ('letters', 'aeiou')]) | 127.0.0.1 | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36 | {'i', 'e'}
+ImmutableMultiDict([('phrase', 'Fire Fire on the Fire'), ('letters', 'aeiou')]) | 127.0.0.1 | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36 | {'i', 'o', 'e'}
