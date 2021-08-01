@@ -1,7 +1,4 @@
-vowels=set('aeiou')
-word=input("Provide a word to search for vowels:")
-mim=vowels.intersection(set(word))
-for  vowel in mim:
-    print(vowel)
-
-
+vowels = set('aeiou')
+word = input("Vvedi slovo dlya poiska glasnyh: ")
+found = vowels.intersection(set(word))
+print(sorted(list(found)))

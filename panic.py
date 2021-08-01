@@ -1,18 +1,13 @@
-phrase="о не очкуй!" # очко!
-plist=list(phrase)
+phrase = "Don't panic!"
+plist = list(phrase)
 print(phrase)
 print(plist)
-for i in range(4):
-    plist.pop(1)
-"""
-plist.remove(" ")
-plist.remove(" ")
-plist.remove("н")
-plist.remove("е")
-"""
-plist.remove("у")
-plist.remove("й")
-plist.extend([plist.pop(0),plist.pop(3)])
-pli="".join(plist)
+for let in range(4):
+    plist.pop()
+plist.pop(0)
+plist.remove("'")
+plist.extend([plist.pop(), plist.pop()])
+plist.insert(2,plist.pop(3))
+new_phrase = ''.join(plist)
 print(plist)
-print(pli)
+print(new_phrase)

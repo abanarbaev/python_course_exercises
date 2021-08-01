@@ -1,8 +1,8 @@
-phrase="о не очкуй!" # очко!
-plist=list(phrase)
+phrase = "Don't panic!"
+plist = list(phrase)
 print(phrase)
 print(plist)
-pli=''.join(plist[-6:-3])
-pli=pli+''.join([plist[0],plist[-1]])
+new_phrase = ''.join(plist[1:3])
+new_phrase = new_phrase+''.join([plist[5],plist[4],plist[7],plist[6]])
 print(plist)
-print(pli)
+print(new_phrase)
